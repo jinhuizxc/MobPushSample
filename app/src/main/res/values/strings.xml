@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">MobPush</string>
+    <string name="main_title">选择你想测试的推送类型</string>
+    <string name="item_app_notify">App内推送</string>
+    <string name="app_notify_title">App内推送测试</string>
+    <string name="item_notify">通知</string>
+    <string name="notify_title">通知测试</string>
+    <string name="item_timing">定时通知</string>
+    <string name="timing_title">定时通知测试</string>
+    <string name="item_local">本地通知</string>
+    <string name="item_media">通过推送打开指定链接页面</string>
+    <string name="item_setting">设置</string>
+    <string name="item_local_title">本地通知提醒测试</string>
+    <string name="inner_tip">点击测试按钮后，你将立即收到一条app内推送</string>
+    <string name="inner_input_hint">填写推送内容（不超过35个字）</string>
+    <string name="btn_test">点击测试</string>
+    <string name="open_url_jump">跳转URL</string>
+    <string name="open_url_hint">请填写URL地址，为空则跳转至mob官网</string>
+    <string name="open_url_content">系统推送通知内容</string>
+    <string name="notify_tip">点击测试按钮后，请在前台关闭App，5s后你将收到一条测试通知</string>
+    <string name="timing_tip">点击测试按钮后，请在前台关闭App，在你设定的时间到了时你将收到一条测试通知</string>
+    <string name="open_url_tip">编辑完成后，点击测试按钮，你将立即收到一条推送消息，点击后可跳转至指定页面。</string>
+    <string name="local_tip">设置时间后点击测试按钮，请在前台关闭App，在你设定的时间到了时你将收到本地通知提醒</string>
+    <string name="local_tip_2">此时间只为方便测试功能，后台使用时不可设定1小时内的定时推送</string>
+    <string name="timing_choose_zero">立即</string>
+    <string name="timing_choose_one">1分钟后</string>
+    <string name="timing_choose_two">2分钟后</string>
+    <string name="timing_choose_three">3分钟后</string>
+    <string name="timing_choose_four">4分钟后</string>
+    <string name="timing_choose_five">5分钟后</string>
+    <string name="toast_input_not_allowed_null">推送内容不能为空</string>
+    <string name="toast_send_success">发送成功</string>
+    <string name="toast_send_failed">发送失败，请检查网络重试</string>
+    <string name="push_pop_title">收到推送</string>
+    <string name="btn_i_known">我知道了</string>
+    <string name="mob_push_explain">此推送服务由MobPush提供</string>
+    <string name="toast_notify">推送发送成功！请在前台关闭app，5S后你将收到一条测试通知</string>
+    <string name="toast_timing">推送发送成功！请在前台关闭app，%s后你将收到一条测试通知</string>
+    <string name="toast_app_notify">推送发送成功！请在前台关闭app，5S后你将收到一条打开链接的消息</string>
+
+    <string name="error_ukonw">程序抢修中，请稍后重试~</string>
+    <string name="error_network">网络不给力，请检查网络后再试~</string>
+    <string name="default_notification_channel_id">mobPush</string>
+
+    <!-- 1.4.0 -->
+    <string name="item_open_act">推送打开应用内指定页面</string>
+    <string name="open_act_title">打开应用内指定页面测试</string>
+    <string name="open_act_tips_txt">编辑完成后，点击测试按钮后，你将立即收到一条推送消息，点击后可跳转至指定的应用内页面</string>
+    <string name="open_act_input_txt">填写推送内容（字数不超过35个字）</string>
+    <string name="link_home">推送打开首页</string>
+    <string name="link_one">推送打开指定界面1</string>
+    <string name="link_two">推送打开指定界面2</string>
+    <string name="notify">通知测试页面</string>
+    <string name="toast_notify_open_act">推送发送成功！你将收到一条能跳转至应用内指定页面的通知</string>
+    <string name="link_one_title">Link打开指定界面1</string>
+    <string name="link_two_title">Link打开指定界面2</string>
+    <string name="link_ok">Link Activity Success.</string>
+    <string name="notification_show_close">通知权限已关闭</string>
+
+    <string name="setting_title">设置自定义通知</string>
+    <string name="set_diy_notification">设置自定义通知</string>
+    <string name="remove_diy_notification">移除自定义通知</string>
+    <string name="set_forground_hidden_notification">设置前台时不显示推送</string>
+    <string name="set_forground_show_notification">设置前台时显示推送</string>
+
+</resources>
