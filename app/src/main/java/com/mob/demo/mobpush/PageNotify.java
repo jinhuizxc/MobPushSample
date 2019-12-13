@@ -8,11 +8,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mob.demo.mobpush.dialog.DialogShell;
-import com.mob.demo.mobpush.req.SimulateRequest;
+import com.mob.demo.mobpush.request.SimulateRequest;
 import com.mob.demo.mobpush.utils.NetWorkHelper;
 import com.mob.pushsdk.MobPushCallback;
 import com.mob.tools.FakeActivity;
 
+// 通知
 public class PageNotify extends FakeActivity implements View.OnClickListener {
 
 	private EditText etContent;
@@ -40,7 +41,7 @@ public class PageNotify extends FakeActivity implements View.OnClickListener {
 				finish();
 			} break;
 			case R.id.btnTest: {
-				// 点击发送通知！
+				// 点击测试. 发送通知！
 				final String content = etContent.getText().toString();
 				if (TextUtils.isEmpty(content)) {
 					Toast.makeText(getContext(), R.string.toast_input_not_allowed_null, Toast.LENGTH_SHORT).show();

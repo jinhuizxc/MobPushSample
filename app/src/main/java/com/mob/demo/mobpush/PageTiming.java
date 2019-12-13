@@ -8,7 +8,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mob.demo.mobpush.dialog.DialogShell;
-import com.mob.demo.mobpush.req.SimulateRequest;
+import com.mob.demo.mobpush.request.SimulateRequest;
 import com.mob.demo.mobpush.utils.NetWorkHelper;
 import com.mob.pushsdk.MobPushCallback;
 import com.mob.tools.FakeActivity;

@@ -32,6 +32,8 @@
             </intent-filter>
         </activity>
 
+       <!-- //配置点击通知默认跳转MainActivity界面
+        //配置<intent-filter>块,action是包名.default.MAIN;默认category-->
         <activity
             android:name=".activity.MainActivity"
             android:launchMode="singleTask">

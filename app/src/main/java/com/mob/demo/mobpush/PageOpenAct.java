@@ -1,5 +1,7 @@
 package com.mob.demo.mobpush;
 
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.WindowManager;
@@ -8,14 +10,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mob.demo.mobpush.dialog.DialogShell;
-import com.mob.demo.mobpush.req.SimulateRequest;
+import com.mob.demo.mobpush.request.SimulateRequest;
 import com.mob.demo.mobpush.utils.NetWorkHelper;
 import com.mob.pushsdk.MobPushCallback;
 import com.mob.tools.FakeActivity;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-
+@RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR1)
 public class PageOpenAct extends FakeActivity implements View.OnClickListener {
 	private EditText etContent;
 	/**
@@ -52,6 +54,7 @@ public class PageOpenAct extends FakeActivity implements View.OnClickListener {
 		tvLinkOne.setOnClickListener(this);
 		tvLinkTwo.setOnClickListener(this);
 	}
+
 
 	public void onClick(View v) {
 		int vId = v.getId();

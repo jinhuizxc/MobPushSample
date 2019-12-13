@@ -1,4 +1,4 @@
-package com.mob.demo.mobpush.req;
+package com.mob.demo.mobpush.request;
 
 import android.text.TextUtils;
 

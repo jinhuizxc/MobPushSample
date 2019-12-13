@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import com.mob.demo.mobpush.dialog.DialogShell;
 import com.mob.demo.mobpush.dialog.PushPopWindow;
-import com.mob.demo.mobpush.req.SimulateRequest;
+import com.mob.demo.mobpush.request.SimulateRequest;
 import com.mob.demo.mobpush.utils.NetWorkHelper;
 import com.mob.pushsdk.MobPush;
 import com.mob.pushsdk.MobPushCallback;
