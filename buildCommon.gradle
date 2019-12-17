@@ -2,7 +2,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.mob.demo.mobpush"
+        applicationId "com.mob.demo.mobpushSample"
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
